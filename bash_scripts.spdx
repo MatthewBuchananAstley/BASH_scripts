@@ -1,27 +1,24 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: bash_scripts.spdx
-DocumentNamespace: https://github.com/MatthewBuchananAstley/BASH_scripts
-Creator: Person:: Matthew Buchanan Astley (matthewbuchanan@astley.nl)
-Created: 2022-02-13T13:11:24Z
-CreatorComment: Bash scripts repository
+DocumentName: BASH_scripts.spdx
+DocumentNamespace: https://github.com/MatthewBuchananAstley/BASH_scripts.git
+Creator: Person: Matthew Buchanan Astley (matthewbuchanan@astley.nl)
+Created: 2022-02-15T21:16:28Z
+CreatorComment: BASH_scripts spdx file
+
 #
 #
 
 PackageName: BASH_scripts
 SPDXID: SPDXRef-MatthewBuchananAstley-Package-BASH-scripts
 PackageVersion: 0.3
-PackageVerificationCode: 8d9eebbe90342a16e1bd00e1782c5d5d23eddc20 (./BASH_scripts.spdx excluded )
-PackageLicenseDeclared: LicenseRef-GPL-3.0-or-later 
+PackageVerificationCode: cf4befd855eff13cf4322053307df344c22d851a (./BASH_scripts.spdx excluded )
+PackageLicenseDeclared: GPL-3.0-or-later
 PackageLicenseInfoFromFiles: LicenseRef-GPL-3.0-or-later
 PackageLicenseConcluded: LicenseRef-GPL-3.0-or-later
-PackageCopyrightText: <text> 2019 - 2022 Matthew Buchanan Astley (matthewbuchanan@astley.nl) </text>
-PackageDownloadLocation: https://github.com/MatthewBuchananAstley/BASH_scripts
-
-#
-#
-
+PackageCopyrightText: 2019 - 2022 Matthew Buchanan Astley (matthewbuchanan@astley.nl)
+PackageDownloadLocation: https://github.com/MatthewBuchananAstley/BASH_scripts.git
 
 #
 #
@@ -32,7 +29,7 @@ SPDXID: SPDXRef-README.md
 FileType: TEXT
 FileChecksum: SHA256: 6e10a1284c335b052a87fa564fa4fa456af9d61e5d99b0466f5e4f7ec6999b47
 FileChecksum: SHA1: fb5fdf2cebe0556374254f2157ecc9f352dae785
-FileCopyrightText: <text> 2019 - 2022 Matthew Buchanan Astley (matthewbuchanan@astley.nl) </text>
+FileCopyrightText: 2019 - 2022 Matthew Buchanan Astley (matthewbuchanan@astley.nl)
 LicenseInfoInFile: NOASSERTION
 LicenseConcluded: NOASSERTION
 
@@ -45,7 +42,7 @@ SPDXID: SPDXRef-CHANGELOG
 FileType: TEXT
 FileChecksum: SHA256: 62d4ecbbaf6dece3f2dd0d7f224fb134c456274c63bf327ae38f45df9fd079d4
 FileChecksum: SHA1: eac31bb5cb0512d7341981b3142c2bd7848399ce
-FileCopyrightText: <text> 2022 Matthew Buchanan Astley (matthewbuchanan@astley.nl) </text>
+FileCopyrightText: NOASSERTION
 LicenseInfoInFile: NOASSERTION
 LicenseConcluded: NOASSERTION
 
@@ -58,7 +55,7 @@ SPDXID: SPDXRef-ethtoolget.sh
 FileType: APPLICATION
 FileChecksum: SHA256: c93db66f5eda5fd8b779cabad31a4df238ebfb57b96f7d9a37ca9a9fa195d076
 FileChecksum: SHA1: de1cdf2d1071e04c5a5f7210bfb4dbf08965347e
-FileCopyrightText: <text> 2019 - 2022 Matthew Buchanan Astley (matthewbuchanan@astley.nl) </text>
+FileCopyrightText: 2019 - 2022 Matthew Buchanan Astley (matthewbuchanan@astley.nl)
 LicenseInfoInFile: GPL-3.0-or-later
 LicenseConcluded: GPL-3.0-or-later
 
@@ -69,9 +66,9 @@ LicenseConcluded: GPL-3.0-or-later
 FileName: ./check_paths.sh
 SPDXID: SPDXRef-check-paths.sh
 FileType: APPLICATION
-FileChecksum: SHA256: 4121c940d2eff0cd4866fe89ea86beb18a65f2aae03503c02b6a00fe50471bf7
-FileChecksum: SHA1: 51e78a27c61688db75c613b9fcf23eed45050f6e
-FileCopyrightText: <text> 2019-2022 Matthew Buchanan Astley (matthewbuchanan@astley.nl)  </text>
+FileChecksum: SHA256: 86bee1408c9ad68bbda627cc6a8d5b430f3cf2a31ad93e727b9f39bdc8ab1681
+FileChecksum: SHA1: e6d53841f8fb19ee664be95773eb597ad8044de2
+FileCopyrightText: 2019 - 2022 Matthew Buchanan Astley (matthewbuchanan@astley.nl)
 LicenseInfoInFile: GPL-3.0-or-later
 LicenseConcluded: GPL-3.0-or-later
 
@@ -82,8 +79,9 @@ LicenseConcluded: GPL-3.0-or-later
 FileName: ./check_system.sh
 SPDXID: SPDXRef-check-system.sh
 FileType: APPLICATION
-FileChecksum: SHA256: 608dd77166bb4a386a3483aef579d04cf06601b6210ca0656937d24119710ff3
-FileChecksum: SHA1: 4cbf60fbb6ef8ae60c42afa5c54d86182a593182
-FileCopyrightText: <text> 2022 Matthew Buchanan Astley (matthewbuchanan@astley.nl) </text>
+FileChecksum: SHA256: d40cdb2045da7df964b8cedc7533b2d41b4c56ca69bd477553390f49b3edddde
+FileChecksum: SHA1: fd19ca0bfc7e5e64e5d268ccc2efc67b4bd3c87e
+FileCopyrightText: 2022 Matthew Buchanan Astley (matthewbuchanan@astley.nl)
 LicenseInfoInFile: GPL-3.0-or-later
 LicenseConcluded: GPL-3.0-or-later
+
