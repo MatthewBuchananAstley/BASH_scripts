@@ -1,5 +1,7 @@
 #!/bin/bash
 #
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
 # Script to check existence of files 
 #
 # For instance to check the missing files on the filesystem compared to the files 
@@ -7,7 +9,7 @@
 #
 # for i in `apt list  | grep installed| cut -d"/" -f1| uniq` ;do echo $i ; for ii in `dpkg -L $i` ;do echo $(echo $i) = $(./check_system.sh $ii)  ; done ; done | grep FAIL
 #
-# 
+# FileCopyrightText: 2022 Matthew Buchanan Astley (matthewbuchanan@astley.nl)
 
 color_reset="\e[0m"
 color_red="\e[31m"

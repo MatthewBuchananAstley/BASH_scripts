@@ -1,5 +1,6 @@
 #!/bin/bash 
-# GPL 2.0
+# 
+# SPDX-License-Identifier: GPL-3.0-or-later
 #
 # Kan jij bash? Werd mij gevraagd vandaag.
 # 
@@ -14,7 +15,9 @@
 # Een script om even te zien of paden in je shell environment wel echt bestaan.  
 # 
 # De leuke kleurtjes komen uit een script uit de linux kernel source zip.
-# 
+#
+# FileCopyrightText: 2019 - 2022 Matthew Buchanan Astley (matthewbuchanan@astley.nl)
+
 
 
 color_reset="\e[0m"
